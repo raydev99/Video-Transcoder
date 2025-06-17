@@ -2,7 +2,6 @@
 
 This project is a **YouTube clone** that allows users to **upload videos**, **transcode them**, and **watch the processed videos** through a Next.js web application. It leverages several cloud services to handle video uploads, processing, and metadata management.
 
-
 **Note:** This public demo is under strict moderation to avoid illegal content such as inappropriate videos.
 
 ### Available Features
@@ -13,13 +12,36 @@ This project is a **YouTube clone** that allows users to **upload videos**, **tr
 - ⬆️ **Upload Videos**: Upload your videos for processing.
 - 🛠️ **Transcoded Videos**: Watch transcoded videos after upload.
 
+## 📸 Screenshots
+
+### Home Page (Logged Out)
+
+![Home Page - Logged Out](demo/home-logged-out.png)
+_Browse videos without authentication_
+
+### Home Page (Logged In)
+
+![Home Page - Logged In](demo/home-logged-in.png)
+_Upload videos and access personalized features_
+
+### Watch Page (Logged Out)
+
+![Watch Page - Logged Out](demo/watch-logged-out.png)
+_Watch videos as a guest user_
+
+### Watch Page (Logged In)
+
+![Watch Page - Logged In](demo/watch-logged-in.png)
+
 ## 🛠️ Tech Stack
 
 - **Frontend**
+
   - [Next.js](https://nextjs.org/)
   - [TypeScript](https://www.typescriptlang.org/)
 
 - **Backend**
+
   - [Express.js](https://expressjs.com/)
   - [Docker](https://www.docker.com/)
   - [FFmpeg](https://ffmpeg.org/) (for video transcoding)
@@ -27,6 +49,7 @@ This project is a **YouTube clone** that allows users to **upload videos**, **tr
   - [Google Cloud Platform](https://cloud.google.com/run)
 
 - **Authentication**
+
   - [Firebase Auth](https://firebase.google.com/docs/auth)
 
 - **Storage & Messaging**
@@ -35,7 +58,6 @@ This project is a **YouTube clone** that allows users to **upload videos**, **tr
   - [Google Cloud Pub/Sub](https://cloud.google.com/pubsub) (for message queuing between video uploads and transcoding)
 
 ## 🏗️ Architecture
-
 
 1. **Cloud Storage**: Stores raw and processed videos uploaded by users.
 2. **Google Cloud Pub/Sub**: Handles messaging between the video upload and processing services.

@@ -1,6 +1,6 @@
-# YouTube Clone with Video Processing
+# Video Transcoder with Video Processing
 
-This project is a **YouTube clone** that allows users to **upload videos**, **transcode them**, and **watch the processed videos** through a Next.js web application. It leverages several cloud services to handle video uploads, processing, and metadata management.
+This project is a **Video Transcoder** that allows users to **upload videos**, **transcode them**, and **watch the processed videos** through a Next.js web application. It leverages several cloud services to handle video uploads, processing, and metadata management.
 
 **Note:** This public demo is under strict moderation to avoid illegal content such as inappropriate videos.
 
